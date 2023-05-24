@@ -1,0 +1,82 @@
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: 'Alkatra', cursive;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 88vh;
+    background-image: url(../img/gtr.jpg) ;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+font-size: 40px;
+}
+
+.principal{
+
+    text-align: justify;
+    margin: 20px;
+}
+
+.principal p{
+    margin: 20px;
+}
+
+.principal article{
+
+    border: 2px dotted lightgray;
+    margin: 10px 50px;
+    padding: 20px;
+    text-align: center;
+}
+
+.principal h2{
+    text-align: center;
+    font-size: 30px;
+}
+
+.container-gel{
+    width: 95%;
+    align-content: center;
+    margin: 0 auto;
+}
+
+div.galeria{
+    margin: 10px;
+    box-shadow: 2px 4px 8px lightseagreen;
+    width: 300px;
+    margin: 0 auto;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.galeria img{
+
+    width: 300px;
+    height: 300px;
+    margin: 10px auto;
+}
+
+footer{
+    background-color: rgb(4, 4, 36);
+color: white;
+height: 50px;
+text-align: center;
+padding: 20px;
+font-size: 22px;
+}
+
+@media only screen and (max-width: 576px) {
+    .principal h2{
+
+    }
+}
+
+ @media only screen and (min-width: 576px) {
+    
+ }
